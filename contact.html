@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact Lydia</title>
+</head>
+
+<body>
+    <div id="root">
+        <div id="topnav" class="topnav">
+            <div class="logo">
+                <a id="home_link" class="topnav_link" href="./index.html"><img src="./assets/logo.jpg" id="logo" style="width: 20%; min-width: 100px;border-radius: 50%;
+                        margin: 15px;box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);border:1px solid #000"></a>
+            </div>
+            <div class="navbar_title">
+                <h1>Massage Bien Etre Lydia Ilhat</h1>
+            </div>
+
+            <!-- Classic Menu -->
+            <nav role="navigation" id="topnav_menu">
+                <a class="topnav_link" href="./index.html">A PROPOS</a>
+                <!-- <a class="topnav_link" href="/contact-us">CONTACT</a> -->
+                <a class="topnav_link" href="./index.html">ACCUEIL</a>
+                <a class="topnav_link" href="./tarif.html">TARIFS</a>
+            </nav>
+
+            <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                <!-- Some spans to act as a hamburger -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <!-- Responsive Menu -->
+            <nav role="navigation" id="topnav_responsive_menu">
+                <ul>
+                    <li><a class="topnav_link" href="./index.html">A PROPOS</a></li>
+                    <!-- <li><a href="/about">ABOUT</a></li> -->
+                    <li><a class="topnav_link" href="./contact.html">CONTACT</a></li>
+                    <li><a class="topnav_link" href="./index.html">ACCUEIL</a></li>
+                    <li><a class="topnav_link" href="tarif.html">TARIFS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="contact-container container">
+
+            <div id="contend">
+                <div id="center">
+                    <div class="fondu">
+                        <!--<img class="top" src="./Assets/Post/poste_kir.jpg" alt="post"> -->
+                        <!-- <img class="bottom" src="./pictures/icons8-email-48.png" alt="post"> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h2>Me contacter<img src="./assets/branche-olivier.png"></h2>
+                <p>N'hesitez pas à me contacter ou à me demander des renseignements </p>
+                <form action="https://formsubmit.co/80497453028bf8aea0c687a80fe2c9f1" method="POST">
+                    <input type="text" placeholder="Nom" name="name" required>
+                    <input type="text" placeholder="Prénom" name="first" required>
+                    <input type="email" placeholder="E-Mail" name="email" required>
+                    <textarea id="text_comment" cols="30" rows="6" placeholder="Laissez moi votre message"
+                        name="message" required></textarea>
+                    <!-- <a href="#" class="btn btn-primary">Validation</a> -->
+                    <div class="btn">
+                        <button type="submit" id="btn">Envoyer</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <i class="fa-brands fa-facebook" style="color: #09069c;"></i>
+        <i class="fa-brands fa-twitter" style="color: #2cfcf7;"></i>
+        <i class="fa-brands fa-instagram" style="color: #ef3d6d;"></i>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/c297fc91aa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
