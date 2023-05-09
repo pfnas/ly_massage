@@ -15,6 +15,17 @@
 //     width: 100%;
 //     flex-direction: column;
 // }
+.card {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #c3c1c1;
+    padding: 25px;
+    margin: 25px 0;
+}
+
 
 h2 {
     text-align: center;
@@ -26,7 +37,7 @@ a {
 }
 
 h4 .small {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 *,
@@ -215,11 +226,7 @@ a {
     /* background: #fff; */
 }
 
-.card {
-    background-color: #d6d6d6;
-    display: contents;
-    box-shadow: #000;
-}
+
 
 
 .about-img {

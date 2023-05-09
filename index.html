@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,8 @@
     <div id="root">
         <div id="topnav" class="topnav">
             <div class="logo">
-                <a id="home_link" class="topnav_link" href="./index.html"><img src="./assets/logo.jpg" id="logo" style="width: 20%; min-width: 100px;border-radius: 50%;
+                <a id="home_link" class="topnav_link" href="./index.html"><img src="./assets/logo.jpg" id="logo"
+                        alt="branche olivier" style="width: 20%; min-width: 100px;border-radius: 50%;
                         margin: 15px;box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);border:1px solid #000"></a>
             </div>
             <div class="navbar_title">
@@ -24,7 +25,7 @@
 
             <!-- Classic Menu -->
             <nav role="navigation" id="topnav_menu">
-                <a class="topnav_link" href="./index.html">A PROPOS</a>
+                <a class="topnav_link" href="#a_propos">A PROPOS</a>
                 <a class="topnav_link" href="./contact.html">CONTACT</a>
                 <a class="topnav_link" href="tarif.html">TARIFS</a>
             </nav>
@@ -39,7 +40,7 @@
             <!-- Responsive Menu -->
             <nav role="navigation" id="topnav_responsive_menu">
                 <ul>
-                    <li><a class="topnav_link" href="./index.html">A PROPOS</a></li>
+                    <li><a class="topnav_link" href="#a_propos">A PROPOS</a></li>
                     <!-- <li><a href="/about">ABOUT</a></li> -->
                     <li><a class="topnav_link" href="./contact.html">CONTACT</a></li>
                     <li><a class="topnav_link" href="./index.html">ACCUEIL</a></li>
@@ -49,13 +50,29 @@
         </div>
     </div>
     <main>
-        <div class="main">
+        <section class="main">
             <div class="main_picture">
-                <img src="./assets/branche-olivier.png">
+                <img src="./assets/branche-olivier.png" alt="branche olivier">
+                <img src="./assets/detente.png" alt="massage">
             </div>
+            <!-- <div class="loader"> -->
+            <div class="loader_letter">
+                <label>L</label>
+                <label>Y</label>
+                <label>D</label>
+                <label>I</label>
+                <label>A</label>
+                <label> -- </label>
+                <label>I</label>
+                <label>L</label>
+                <label>H</label>
+                <label>A</label>
+                <label>T</label>
+            </div>
+            <!-- </div> -->
             <div class="main_content">
                 <div class="presentation">
-                    <div>
+                    <div class="card">
                         <h2>Massage Bien Etre Lydia Ilhat</h2>
 
                         <p> 
@@ -75,14 +92,14 @@
                         </p>
 
                     </div>
-                    <div>
+                    <div class="card">
                         <p>
                             Vous pouvez déjà me suivre sur ma page Facebook Massage Bien Etre Lydia Ilhat
                             Ou <a href="https://massagebienetrelydiailhat.kalendes.com"><span>Massage Bien être
                                 </span></a>
                             A très vite</p>
                     </div>
-                    <div>
+                    <div class="card" id="a_propos">
                         <h2>Presentation</h2>
                         <!-- <img src="./assets/branche-olivier.png" alt=""> -->
                         <p>
@@ -118,9 +135,10 @@
                     </div>
                 </div>
             </div>
+        </section>
     </main>
     <section class="explain">
-        <div class="presentation">
+        <div class="card">
             <h3>Massage bien être sénior a Domicile ou Ehpad</h3>
             <div class="main_picture">
                 <img src="./assets/massage-main.jpg" alt="">
@@ -134,7 +152,7 @@
             <p> massages doux sont donc privilégiés, généralement des mains, des épaules, des pieds ou du dos.
             </p>
         </div>
-        <div class="presentation">
+        <div class="card">
             <h3>Femmes enceintes</h3>
             <div class="main_picture">
                 <img src="./assets/image_massage.png" alt="">
@@ -146,12 +164,12 @@
             <p> Un coussin de grossesse sera a votre disposition pour adapter mon massage et les positions en fonction
                 de vos envies et de vos douleurs. </p>
         </div>
-        <div class="presentation">
+        <div class="card">
             <h3>Le Massage Hypoténuse</h3>
             <div class="main_picture">
                 <img src="./assets/detente.png" alt="">
             </div>
-            <h3>Qu’est-ce que c’est, quels sont ses bénéfices ?</h3>
+            <h3>Qu’est-ce que c’est, quels en sont ses bénéfices ?</h3>
             <h4>Massage unique qui associe les techniques suédoises et californiennes.</h4>
             <ul>
                 <li> Relâchement des tensions</li>
@@ -164,11 +182,15 @@
                 retrouvez le sommeil et pour les sportifs après une compétition ou des entrainements intensifs.</p>
         </div>
     </section>
+    <div class="carousel">
+    </div>
+
+
     <section class="location">
         <h2>Localisation</h2>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46701.6647196967!2d1.9770443079141247!3d42.98134810523988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12afbabf03ced639%3A0x4f5966c679fe8772!2s11230%20Chalabre!5e0!3m2!1sfr!2sfr!4v1683556322865!5m2!1sfr!2sfr"
-            width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <footer>
