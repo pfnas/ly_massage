@@ -1,18 +1,9 @@
 @charset "UTF-8";
 
-
-
-/* * {
-  list-style-type: none;
-  box-sizing: border-box;
-  margin: 0 auto;
-  text-decoration: none;
-  font-size: 1em;
-} */
-
 img {
   -o-object-fit: cover;
   object-fit: cover;
+  /* width: 100%; */
 }
 
 @font-face {
@@ -43,11 +34,25 @@ h3,
 h4,
 p,
 li,
-span {
+span,
+label {
   font-family: parisienne;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.8;
+}
+
+.main_picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: 15px 5px;
+  /* background-color: rgba(255, 123, 246, 0.3); */
 }
 
 .explain h1,

@@ -9,6 +9,13 @@
   background-color: #c3c1c1;
   padding: 25px;
   margin: 15px 25px;
+
+}
+
+.card_tarif {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h2 {
