@@ -140,7 +140,7 @@ span:hover {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  margin: 0;
+  margin-bottom: 15px;
   padding: 0;
   width: 100%;
 }
@@ -163,15 +163,11 @@ span:hover {
     padding: 0;
   }
 
-  /* .location {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  /* #logo_Title {
+    display: none;
   } */
+
+
 
   .main {
     margin: 0;
