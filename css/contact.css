@@ -8,7 +8,7 @@
   -o-border-radius: 25px;
   background-color: #c3c1c1;
   padding: 25px;
-  margin: 25px 0;
+  margin: 15px 25px;
 }
 
 h2 {
@@ -21,7 +21,7 @@ a {
 }
 
 h4 .small {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 *,
@@ -39,6 +39,7 @@ h4 .small {
 body {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  width: 100%;
 }
 
 a {
@@ -199,12 +200,6 @@ a {
   font-weight: 600;
   /* background: #fff; */
 }
-
-/* .card {
-  background-color: #d6d6d6;
-  display: contents;
-  box-shadow: #000;
-} */
 
 .about-img {
   flex: 1 1 400px;
@@ -371,14 +366,7 @@ a {
   font-size: 1.3rem;
 }
 
-#footer h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  padding: 2.6rem;
-  font-weight: 500;
-  color: #fff;
-  background: rgb(65, 65, 65);
-}
+
 
 /* ......../ media query /.......... */
 @media (max-width: 768px) {
@@ -487,9 +475,9 @@ h2,
 /*------------------------------------------------Slider---------------------------------------------
 -----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------*/
-section {
+/* section {
   margin: 25px;
-}
+} */
 
 input[type=radio] {
   position: absolute;
