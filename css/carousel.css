@@ -1,0 +1,152 @@
+#competence {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 120, 180, 0.1);
+}
+
+
+
+.slider .card_competence {
+    max-width: 100%;
+    display: none;
+    border: 2px solid #000;
+    background-color: #F1F1F1;
+
+}
+
+.slider .card_competence {
+    max-width: 100%;
+    display: none;
+    border: 2px solid #000;
+    background-color: #F1F1F1;
+
+}
+
+.card_competence {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    width: 80%;
+    margin: 10px auto
+}
+
+.card_competence.active {
+    display: block;
+    animation: fade 0.8s;
+    -webkit-animation: fade 0.8s;
+}
+
+.new {
+    flex-direction: column;
+}
+
+.explain {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    padding: 0 0px 15px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+}
+
+
+img {
+    width: 100%;
+}
+
+.carousel_pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel_pictures .picture,
+.carousel_pictures .container-carousel {
+    width: 50%;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cont_btn {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid#000;
+    border-bottom: 1px solid#000;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1F1F1;
+    margin-bottom: 15px;
+}
+
+.btn_nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#location {
+    margin-bottom: 25px;
+}
+
+@media(max-width: 992px) {
+
+    .explain,
+    .main {
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        padding: 0 0px 15px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .main {
+        width: 100%;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        padding: 0 0px 15px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .carousel_pictures {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .slider,
+    #competence {
+        width: 100%;
+    }
+}
